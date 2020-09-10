@@ -1,5 +1,5 @@
 /*!
- * BootstrapValidator (http://bootstrapvalidator.com)
+ * BootstrapValidator (https://bootstrapvalidator.com)
  * The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3
  *
  * @version     v0.5.3-dev, built on 2014-09-27 1:39:29 PM
@@ -328,7 +328,7 @@ if (typeof jQuery === 'undefined') {
                 }
 
                 // Prepare the feedback icons
-                // Available from Bootstrap 3.1 (http://getbootstrap.com/css/#forms-control-validation)
+                // Available from Bootstrap 3.1 (https://getbootstrap.com/css/#forms-control-validation)
                 if (this.options.fields[field].feedbackIcons !== false && this.options.fields[field].feedbackIcons !== 'false'
                     && this.options.feedbackIcons
                     && this.options.feedbackIcons.validating && this.options.feedbackIcons.invalid && this.options.feedbackIcons.valid
@@ -1723,7 +1723,7 @@ if (typeof jQuery === 'undefined') {
         excluded: [':disabled', ':hidden', ':not(:visible)'],
 
         // Shows ok/error/loading icons based on the field validity.
-        // This feature requires Bootstrap v3.1.0 or later (http://getbootstrap.com/css/#forms-control-validation).
+        // This feature requires Bootstrap v3.1.0 or later (https://getbootstrap.com/css/#forms-control-validation).
         // Since Bootstrap doesn't provide any methods to know its version, this option cannot be on/off automatically.
         // In other word, to use this feature you have to upgrade your Bootstrap to v3.1.0 or later.
         //
@@ -1895,7 +1895,7 @@ if (typeof jQuery === 'undefined') {
          * Implement Luhn validation algorithm
          * Credit to https://gist.github.com/ShirtlessKirk/2134376
          *
-         * @see http://en.wikipedia.org/wiki/Luhn
+         * @see https://en.wikipedia.org/wiki/Luhn
          * @param {String} value
          * @returns {Boolean}
          */
@@ -2296,7 +2296,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 037833100, 931142103, 14149YAR8, 126650BG6
          * - Invalid: 31430F200, 022615AC2
          *
-         * @see http://en.wikipedia.org/wiki/CUSIP
+         * @see https://en.wikipedia.org/wiki/CUSIP
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} [options] Can consist of the following keys:
@@ -2791,7 +2791,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 73513537, 9780471117094, 4006381333931
          * - Invalid: 73513536
          *
-         * @see http://en.wikipedia.org/wiki/European_Article_Number
+         * @see https://en.wikipedia.org/wiki/European_Article_Number
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Can consist of the following keys:
@@ -2852,7 +2852,7 @@ if (typeof jQuery === 'undefined') {
             }
 
             // Email address regular expression
-            // http://stackoverflow.com/questions/46155/validate-email-address-in-javascript
+            // https://stackoverflow.com/questions/46155/validate-email-address-in-javascript
             var emailRegExp   = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
                 allowMultiple = options.multiple === true || options.multiple === 'true';
 
@@ -3058,7 +3058,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: A12425GABC1234002M, A1-2425G-ABC1234002-M, A1 2425G ABC1234002 M, Grid:A1-2425G-ABC1234002-M
          * - Invalid: A1-2425G-ABC1234002-Q
          *
-         * @see http://en.wikipedia.org/wiki/Global_Release_Identifier
+         * @see https://en.wikipedia.org/wiki/Global_Release_Identifier
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Can consist of the following keys:
@@ -3230,8 +3230,8 @@ if (typeof jQuery === 'undefined') {
             country: 'country'
         },
 
-        // http://www.swift.com/dsp/resources/documents/IBAN_Registry.pdf
-        // http://en.wikipedia.org/wiki/International_Bank_Account_Number#IBAN_formats_by_country
+        // https://www.swift.com/dsp/resources/documents/IBAN_Registry.pdf
+        // https://en.wikipedia.org/wiki/International_Bank_Account_Number#IBAN_formats_by_country
         REGEX: {
             AD: 'AD[0-9]{2}[0-9]{4}[0-9]{4}[A-Z0-9]{12}',                       // Andorra
             AE: 'AE[0-9]{2}[0-9]{3}[0-9]{16}',                                  // United Arab Emirates
@@ -3317,7 +3317,7 @@ if (typeof jQuery === 'undefined') {
         /**
          * Validate an International Bank Account Number (IBAN)
          * To test it, take the sample IBAN from
-         * http://www.nordea.com/Our+services/International+products+and+services/Cash+Management/IBAN+countries/908462.html
+         * https://www.nordea.com/Our+services/International+products+and+services/Cash+Management/IBAN+countries/908462.html
          *
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
@@ -3433,7 +3433,7 @@ if (typeof jQuery === 'undefined') {
         /**
          * Validate identification number in different countries
          *
-         * @see http://en.wikipedia.org/wiki/National_identification_number
+         * @see https://en.wikipedia.org/wiki/National_identification_number
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Consist of key:
@@ -3480,7 +3480,7 @@ if (typeof jQuery === 'undefined') {
          * - Serbia (RS)
          * - Slovenia (SI)
          *
-         * @see http://en.wikipedia.org/wiki/Unique_Master_Citizen_Number
+         * @see https://en.wikipedia.org/wiki/Unique_Master_Citizen_Number
          * @param {String} value The ID
          * @param {String} countryCode The ISO country code, can be BA, MK, ME, RS, SI
          * @returns {Boolean}
@@ -3566,7 +3566,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 7523169263, 8032056031, 803205 603 1, 8001010008, 7501020018, 7552010005, 7542011030
          * - Invalid: 8019010008
          *
-         * @see http://en.wikipedia.org/wiki/Uniform_civil_number
+         * @see https://en.wikipedia.org/wiki/Uniform_civil_number
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -3606,7 +3606,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 39053344705, 390.533.447-05, 111.444.777-35
          * - Invalid: 231.002.999-00
          *
-         * @see http://en.wikipedia.org/wiki/Cadastro_de_Pessoas_F%C3%ADsicas
+         * @see https://en.wikipedia.org/wiki/Cadastro_de_Pessoas_F%C3%ADsicas
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -3648,8 +3648,8 @@ if (typeof jQuery === 'undefined') {
          * Examples:
          * - Valid: 756.1234.5678.95, 7561234567895
          *
-         * @see http://en.wikipedia.org/wiki/National_identification_number#Switzerland
-         * @see http://www.bsv.admin.ch/themen/ahv/00011/02185/index.html?lang=de
+         * @see https://en.wikipedia.org/wiki/National_identification_number#Switzerland
+         * @see https://www.bsv.admin.ch/themen/ahv/00011/02185/index.html?lang=de
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -3673,7 +3673,7 @@ if (typeof jQuery === 'undefined') {
          * Examples:
          * - Valid: 76086428-5, 22060449-7, 12531909-2
          *
-         * @see http://en.wikipedia.org/wiki/National_identification_number#Chile
+         * @see https://en.wikipedia.org/wiki/National_identification_number#Chile
          * @see https://palena.sii.cl/cvc/dte/ee_empresas_emisoras.html for samples
          * @param {String} value The ID
          * @returns {Boolean}
@@ -3715,12 +3715,12 @@ if (typeof jQuery === 'undefined') {
          *     - Digit 6-11: Must be a valid YYMMDD date of birth, indicating the year of 19XX.
          *     - Digit 12-14: Order code, any integer.
          * Lists of valid administrative division codes of China PR can be seen here:
-         * <http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/>
+         * <https://www.stats.gov.cn/tjsj/tjbz/xzqhdm/>
          * Published and maintained by National Bureau of Statistics of China PR.
          * NOTE: Current and deprecated codes MUST BOTH be considered valid.
          * Many Chinese citizens born in once existed administrative divisions!
          *
-         * @see http://en.wikipedia.org/wiki/Resident_Identity_Card#Identity_card_number
+         * @see https://en.wikipedia.org/wiki/Resident_Identity_Card#Identity_card_number
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -4319,7 +4319,7 @@ if (typeof jQuery === 'undefined') {
          * Examples:
          * - Valid: 37605030299
          *
-         * @see http://et.wikipedia.org/wiki/Isikukood
+         * @see https://et.wikipedia.org/wiki/Isikukood
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -4453,7 +4453,7 @@ if (typeof jQuery === 'undefined') {
          * Examples:
          * - Valid: 120174-3399, 1201743399, 0902862349
          *
-         * @see http://en.wikipedia.org/wiki/Kennitala
+         * @see https://en.wikipedia.org/wiki/Kennitala
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -4487,8 +4487,8 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 38703181745
          * - Invalid: 38703181746, 78703181745, 38703421745
          *
-         * @see http://en.wikipedia.org/wiki/National_identification_number#Lithuania
-         * @see http://www.adomas.org/midi2007/pcode.html
+         * @see https://en.wikipedia.org/wiki/National_identification_number#Lithuania
+         * @see https://www.adomas.org/midi2007/pcode.html
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -4536,7 +4536,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 161175-19997, 16117519997
          * - Invalid: 161375-19997
          *
-         * @see http://laacz.lv/2006/11/25/pk-parbaudes-algoritms/
+         * @see https://laacz.lv/2006/11/25/pk-parbaudes-algoritms/
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -4604,7 +4604,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 1630615123457, 1800101221144
          * - Invalid: 8800101221144, 1632215123457, 1630615123458
          *
-         * @see http://en.wikipedia.org/wiki/National_identification_number#Romania
+         * @see https://en.wikipedia.org/wiki/National_identification_number#Romania
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -4660,7 +4660,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 8112289874, 811228-9874, 811228+9874
          * - Invalid: 811228-9873
          *
-         * @see http://en.wikipedia.org/wiki/Personal_identity_number_(Sweden)
+         * @see https://en.wikipedia.org/wiki/Personal_identity_number_(Sweden)
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -4698,7 +4698,7 @@ if (typeof jQuery === 'undefined') {
         /**
          * Validate San Marino citizen number
          *
-         * @see http://en.wikipedia.org/wiki/National_identification_number#San_Marino
+         * @see https://en.wikipedia.org/wiki/National_identification_number#San_Marino
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -4712,7 +4712,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 7145620509547, 3688699975685, 2368719339716
          * - Invalid: 1100800092310
          *
-         * @see http://en.wikipedia.org/wiki/National_identification_number#Thailand
+         * @see https://en.wikipedia.org/wiki/National_identification_number#Thailand
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -4735,7 +4735,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 8001015009087
          * - Invalid: 8001015009287, 8001015009086
          *
-         * @see http://en.wikipedia.org/wiki/National_identification_number#South_Africa
+         * @see https://en.wikipedia.org/wiki/National_identification_number#South_Africa
          * @param {String} value The ID
          * @returns {Boolean}
          */
@@ -4810,7 +4810,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 35-209900-176148-1, 35-209900-176148-23, 3568680000414120, 490154203237518
          * - Invalid: 490154203237517
          *
-         * @see http://en.wikipedia.org/wiki/International_Mobile_Station_Equipment_Identity
+         * @see https://en.wikipedia.org/wiki/International_Mobile_Station_Equipment_Identity
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Can consist of the following keys:
@@ -4854,7 +4854,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: IMO 8814275, IMO 9176187
          * - Invalid: IMO 8814274
          *
-         * @see http://en.wikipedia.org/wiki/IMO_Number
+         * @see https://en.wikipedia.org/wiki/IMO_Number
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Can consist of the following keys:
@@ -4997,7 +4997,7 @@ if (typeof jQuery === 'undefined') {
          * ISBN 10: 99921-58-10-6
          * ISBN 13: 978-0-306-40615-6
          *
-         * @see http://en.wikipedia.org/wiki/International_Standard_Book_Number
+         * @see https://en.wikipedia.org/wiki/International_Standard_Book_Number
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} [options] Can consist of the following keys:
@@ -5010,7 +5010,7 @@ if (typeof jQuery === 'undefined') {
                 return true;
             }
 
-            // http://en.wikipedia.org/wiki/International_Standard_Book_Number#Overview
+            // https://en.wikipedia.org/wiki/International_Standard_Book_Number#Overview
             // Groups are separated by a hyphen or a space
             var type;
             switch (true) {
@@ -5074,7 +5074,7 @@ if (typeof jQuery === 'undefined') {
 
     $.fn.bootstrapValidator.validators.isin = {
         // Available country codes
-        // See http://isin.net/country-codes/
+        // See https://isin.net/country-codes/
         COUNTRY_CODES: 'AF|AX|AL|DZ|AS|AD|AO|AI|AQ|AG|AR|AM|AW|AU|AT|AZ|BS|BH|BD|BB|BY|BE|BZ|BJ|BM|BT|BO|BQ|BA|BW|BV|BR|IO|BN|BG|BF|BI|KH|CM|CA|CV|KY|CF|TD|CL|CN|CX|CC|CO|KM|CG|CD|CK|CR|CI|HR|CU|CW|CY|CZ|DK|DJ|DM|DO|EC|EG|SV|GQ|ER|EE|ET|FK|FO|FJ|FI|FR|GF|PF|TF|GA|GM|GE|DE|GH|GI|GR|GL|GD|GP|GU|GT|GG|GN|GW|GY|HT|HM|VA|HN|HK|HU|IS|IN|ID|IR|IQ|IE|IM|IL|IT|JM|JP|JE|JO|KZ|KE|KI|KP|KR|KW|KG|LA|LV|LB|LS|LR|LY|LI|LT|LU|MO|MK|MG|MW|MY|MV|ML|MT|MH|MQ|MR|MU|YT|MX|FM|MD|MC|MN|ME|MS|MA|MZ|MM|NA|NR|NP|NL|NC|NZ|NI|NE|NG|NU|NF|MP|NO|OM|PK|PW|PS|PA|PG|PY|PE|PH|PN|PL|PT|PR|QA|RE|RO|RU|RW|BL|SH|KN|LC|MF|PM|VC|WS|SM|ST|SA|SN|RS|SC|SL|SG|SX|SK|SI|SB|SO|ZA|GS|SS|ES|LK|SD|SR|SJ|SZ|SE|CH|SY|TW|TJ|TZ|TH|TL|TG|TK|TO|TT|TN|TR|TM|TC|TV|UG|UA|AE|GB|US|UM|UY|UZ|VU|VE|VN|VG|VI|WF|EH|YE|ZM|ZW',
 
         /**
@@ -5083,7 +5083,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: US0378331005, AU0000XVGZA3, GB0002634946
          * - Invalid: US0378331004, AA0000XVGZA3
          *
-         * @see http://en.wikipedia.org/wiki/International_Securities_Identifying_Number
+         * @see https://en.wikipedia.org/wiki/International_Securities_Identifying_Number
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Can consist of the following keys:
@@ -5138,7 +5138,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: M230671187, 979-0-0601-1561-5, 979 0 3452 4680 5, 9790060115615
          * - Invalid: 9790060115614
          *
-         * @see http://en.wikipedia.org/wiki/International_Standard_Music_Number
+         * @see https://en.wikipedia.org/wiki/International_Standard_Music_Number
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Can consist of the following keys:
@@ -5197,7 +5197,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 0378-5955, 0024-9319, 0032-1478
          * - Invalid: 0032-147X
          *
-         * @see http://en.wikipedia.org/wiki/International_Standard_Serial_Number
+         * @see https://en.wikipedia.org/wiki/International_Standard_Serial_Number
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Can consist of the following keys:
@@ -5332,7 +5332,7 @@ if (typeof jQuery === 'undefined') {
          * - Valid: 293608736500703710, 29360-87365-0070-3710, AF0123450ABCDE, AF-012345-0ABCDE
          * - Invalid: 2936087365007037101
          *
-         * @see http://en.wikipedia.org/wiki/Mobile_equipment_identifier
+         * @see https://en.wikipedia.org/wiki/Mobile_equipment_identifier
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Can consist of the following keys:
@@ -5553,19 +5553,19 @@ if (typeof jQuery === 'undefined') {
             var isValid = true;
             switch (country.toUpperCase()) {
                 case 'BR':
-                    // Test: http://regexr.com/399m1
+                    // Test: https://regexr.com/399m1
                     value   = $.trim(value);
                     isValid = (/^(([\d]{4}[-.\s]{1}[\d]{2,3}[-.\s]{1}[\d]{2}[-.\s]{1}[\d]{2})|([\d]{4}[-.\s]{1}[\d]{3}[-.\s]{1}[\d]{4})|((\(?\+?[0-9]{2}\)?\s?)?(\(?\d{2}\)?\s?)?\d{4,5}[-.\s]?\d{4}))$/).test(value);
                     break;
 
                 case 'CN':
-                    // http://regexr.com/39dq4
+                    // https://regexr.com/39dq4
                     value   = $.trim(value);
                     isValid = (/^((00|\+)?(86(?:-| )))?((\d{11})|(\d{3}[- ]{1}\d{4}[- ]{1}\d{4})|((\d{2,4}[- ]){1}(\d{7,8}|(\d{3,4}[- ]{1}\d{4}))([- ]{1}\d{1,4})?))$/).test(value);
                     break;
 
                 case 'CZ':
-                    // Test: http://regexr.com/39hhl
+                    // Test: https://regexr.com/39hhl
                     isValid = /^(((00)([- ]?)|\+)(420)([- ]?))?((\d{3})([- ]?)){2}(\d{3})$/.test(value);
                     break;
 
@@ -5573,66 +5573,66 @@ if (typeof jQuery === 'undefined') {
                     // Mathing DK phone numbers with country code in 1 of 3 formats and an
                     // 8 digit phone number not starting with a 0 or 1. Can have 1 space
                     // between each character except inside the country code.
-                    // Test: http://regex101.com/r/sS8fO4/1
+                    // Test: https://regex101.com/r/sS8fO4/1
                     value   = $.trim(value);
                     isValid = (/^(\+45|0045|\(45\))?\s?[2-9](\s?\d){7}$/).test(value);
                     break;
 
                 case 'ES':
-                    // http://regex101.com/r/rB9mA9/1
+                    // https://regex101.com/r/rB9mA9/1
                     value   = $.trim(value);
                     isValid = (/^(?:(?:(?:\+|00)34\D?))?(?:9|6)(?:\d\D?){8}$/).test(value);
                     break;
 
                 case 'FR':
-                    // http://regexr.com/39a2p
+                    // https://regexr.com/39a2p
                     value   = $.trim(value);
                     isValid = (/^(?:(?:(?:\+|00)33[ ]?(?:\(0\)[ ]?)?)|0){1}[1-9]{1}([ .-]?)(?:\d{2}\1?){3}\d{2}$/).test(value);
                     break;
 
             	case 'GB':
-            		// http://aa-asterisk.org.uk/index.php/Regular_Expressions_for_Validating_and_Formatting_GB_Telephone_Numbers#Match_GB_telephone_number_in_any_format
-            		// Test: http://regexr.com/38uhv
+            		// https://aa-asterisk.org.uk/index.php/Regular_Expressions_for_Validating_and_Formatting_GB_Telephone_Numbers#Match_GB_telephone_number_in_any_format
+            		// Test: https://regexr.com/38uhv
             		value   = $.trim(value);
             		isValid = (/^\(?(?:(?:0(?:0|11)\)?[\s-]?\(?|\+)44\)?[\s-]?\(?(?:0\)?[\s-]?\(?)?|0)(?:\d{2}\)?[\s-]?\d{4}[\s-]?\d{4}|\d{3}\)?[\s-]?\d{3}[\s-]?\d{3,4}|\d{4}\)?[\s-]?(?:\d{5}|\d{3}[\s-]?\d{3})|\d{5}\)?[\s-]?\d{4,5}|8(?:00[\s-]?11[\s-]?11|45[\s-]?46[\s-]?4\d))(?:(?:[\s-]?(?:x|ext\.?\s?|\#)\d+)?)$/).test(value);
                     break;
 
                 case 'MA':
-                    // http://en.wikipedia.org/wiki/Telephone_numbers_in_Morocco
-                    // Test: http://regexr.com/399n8
+                    // https://en.wikipedia.org/wiki/Telephone_numbers_in_Morocco
+                    // Test: https://regexr.com/399n8
                     value   = $.trim(value);
                     isValid = (/^(?:(?:(?:\+|00)212[\s]?(?:[\s]?\(0\)[\s]?)?)|0){1}(?:5[\s.-]?[2-3]|6[\s.-]?[13-9]){1}[0-9]{1}(?:[\s.-]?\d{2}){3}$/).test(value);
                     break;
 
                 case 'PK':
-                    // http://regex101.com/r/yH8aV9/2
+                    // https://regex101.com/r/yH8aV9/2
                     value   = $.trim(value);
                     isValid = (/^0?3[0-9]{2}[0-9]{7}$/).test(value);
                     break;
 
         		case 'RO':
         		    // All mobile network and land line
-                    // http://regexr.com/39fv1
+                    // https://regexr.com/39fv1
         		    isValid = (/^(\+4|)?(07[0-8]{1}[0-9]{1}|02[0-9]{2}|03[0-9]{2}){1}?(\s|\.|\-)?([0-9]{3}(\s|\.|\-|)){2}$/g).test(value);
         		    break;
 
                 case 'RU':
-                    // http://regex101.com/r/gW7yT5/5
+                    // https://regex101.com/r/gW7yT5/5
                     isValid = (/^((8|\+7|007)[\-\.\/ ]?)?([\(\/\.]?\d{3}[\)\/\.]?[\-\.\/ ]?)?[\d\-\.\/ ]{7,10}$/g).test(value);
                     break;
 
                 case 'SK':
-                    // Test: http://regexr.com/39hhl
+                    // Test: https://regexr.com/39hhl
                     isValid = /^(((00)([- ]?)|\+)(420)([- ]?))?((\d{3})([- ]?)){2}(\d{3})$/.test(value);
                     break;
 
                 case 'TH':
-        		    // http://regex101.com/r/vM5mZ4/2
+        		    // https://regex101.com/r/vM5mZ4/2
         		    isValid = (/^0\(?([6|8-9]{2})*-([0-9]{3})*-([0-9]{4})$/).test(value);
         		    break;
 
                 case 'VE':
-                    // http://regex101.com/r/eM2yY0/6
+                    // https://regex101.com/r/eM2yY0/6
                     value   = $.trim(value);
                     isValid = (/^0(?:2(?:12|4[0-9]|5[1-9]|6[0-9]|7[0-8]|8[1-35-8]|9[1-5]|3[45789])|4(?:1[246]|2[46]))\d{7}$/).test(value);
                     break;
@@ -5643,7 +5643,7 @@ if (typeof jQuery === 'undefined') {
                     // Make sure US phone numbers have 10 digits
                     // May start with 1, +1, or 1-; should discard
                     // Area code may be delimited with (), & sections may be delimited with . or -
-                    // Test: http://regexr.com/38mqi
+                    // Test: https://regexr.com/38mqi
                     value   = value.replace(/\D/g, '');
                     isValid = (/^(?:(1\-?)|(\+1 ?))?\(?(\d{3})[\)\-\.]?(\d{3})[\-\.]?(\d{4})$/).test(value) && (value.length === 10);
                     break;
@@ -5811,7 +5811,7 @@ if (typeof jQuery === 'undefined') {
          * Examples:
          * - Valid: 021200025, 789456124
          *
-         * @see http://en.wikipedia.org/wiki/Routing_transit_number
+         * @see https://en.wikipedia.org/wiki/Routing_transit_number
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Can consist of the following keys:
@@ -5849,7 +5849,7 @@ if (typeof jQuery === 'undefined') {
          * Examples:
          * - Valid: 0263494, B0WNLY7
          *
-         * @see http://en.wikipedia.org/wiki/SEDOL
+         * @see https://en.wikipedia.org/wiki/SEDOL
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Can consist of the following keys:
@@ -6173,7 +6173,7 @@ if (typeof jQuery === 'undefined') {
             // it was expressly modified to fit & satisfy
             // these test for an URL shortener:
             //
-            //   http://mathiasbynens.be/demo/url-regex
+            //   https://mathiasbynens.be/demo/url-regex
             //
             // Notes on possible differences from a standard/generic validation:
             //
@@ -6252,7 +6252,7 @@ if (typeof jQuery === 'undefined') {
         /**
          * Return true if and only if the input value is a valid UUID string
          *
-         * @see http://en.wikipedia.org/wiki/Universally_unique_identifier
+         * @see https://en.wikipedia.org/wiki/Universally_unique_identifier
          * @param {BootstrapValidator} validator The validator plugin instance
          * @param {jQuery} $field Field element
          * @param {Object} options Consist of key:
@@ -6266,7 +6266,7 @@ if (typeof jQuery === 'undefined') {
                 return true;
             }
 
-            // See the format at http://en.wikipedia.org/wiki/Universally_unique_identifier#Variants_and_versions
+            // See the format at https://en.wikipedia.org/wiki/Universally_unique_identifier#Variants_and_versions
             var patterns = {
                     '3': /^[0-9A-F]{8}-[0-9A-F]{4}-3[0-9A-F]{3}-[0-9A-F]{4}-[0-9A-F]{12}$/i,
                     '4': /^[0-9A-F]{8}-[0-9A-F]{4}-4[0-9A-F]{3}-[89AB][0-9A-F]{3}-[0-9A-F]{12}$/i,
@@ -7384,7 +7384,7 @@ if (typeof jQuery === 'undefined') {
         /**
          * Validate Norwegian VAT number
          *
-         * @see http://www.brreg.no/english/coordination/number.html
+         * @see https://www.brreg.no/english/coordination/number.html
          * @param {String} value VAT number
          * @returns {Boolean}
          */
@@ -7831,7 +7831,7 @@ if (typeof jQuery === 'undefined') {
                     break;
 
                 case 'CZ':
-                    // Test: http://regexr.com/39hhr
+                    // Test: https://regexr.com/39hhr
                     isValid = /^(\d{3})([ ]?)(\d{2})$/.test(value);
                     break;
 
@@ -7843,17 +7843,17 @@ if (typeof jQuery === 'undefined') {
                     isValid = this._gb(value);
                     break;
 
-                // http://en.wikipedia.org/wiki/List_of_postal_codes_in_Italy
+                // https://en.wikipedia.org/wiki/List_of_postal_codes_in_Italy
                 case 'IT':
                     isValid = /^(I-|IT-)?\d{5}$/i.test(value);
                     break;
 
-                // http://en.wikipedia.org/wiki/List_of_postal_codes_in_Morocco
+                // https://en.wikipedia.org/wiki/List_of_postal_codes_in_Morocco
                 case 'MA':
                     isValid = /^[1-9][0-9]{4}$/i.test(value);
                     break;
 
-                // http://en.wikipedia.org/wiki/Postal_codes_in_the_Netherlands
+                // https://en.wikipedia.org/wiki/Postal_codes_in_the_Netherlands
                 case 'NL':
                     isValid = /^[1-9][0-9]{3} ?(?!sa|sd|ss)[a-z]{2}$/i.test(value);
                     break;
@@ -7875,7 +7875,7 @@ if (typeof jQuery === 'undefined') {
                     break;                
 
                 case 'SK':
-                    // Test: http://regexr.com/39hhr
+                    // Test: https://regexr.com/39hhr
                     isValid = /^(\d{3})([ ]?)(\d{2})$/.test(value);
                     break;
 
@@ -7899,7 +7899,7 @@ if (typeof jQuery === 'undefined') {
          * - Special cases:
          * AI-2640, ASCN 1ZZ, GIR 0AA
          *
-         * @see http://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom
+         * @see https://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom
          * @param {String} value The postcode
          * @returns {Boolean}
          */

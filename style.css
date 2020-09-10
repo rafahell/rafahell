@@ -350,18 +350,18 @@ body {
   margin-top:10px;
   line-height:14px;
   vertical-align:text-top;
-  background-image:url(http://rafahell.com/images/css/sicon-set-menu.png);
+  background-image:url(https://rafahell.com/images/css/sicon-set-menu.png);
   background-repeat:no-repeat;
   text-indent:-99999px;
   text-align:center
 }
 
 .sicon-white i {
-  background-image:url(http://rafahell.com/images/css/sicon-set-white.png)
+  background-image:url(https://rafahell.com/images/css/sicon-set-white.png)
 }
 
 .sicon-black i {
-  background-image:url(http://rafahell.com/images/css/sicon-set.png)
+  background-image:url(https://rafahell.com/images/css/sicon-set.png)
 }
 
 .sicon-search i {
@@ -423,7 +423,7 @@ body {
 }
 
 .social-icons.bordered a:hover i {
-  background-image:url(http://rafahell.com/images/css/sicon-set.png)
+  background-image:url(https://rafahell.com/images/css/sicon-set.png)
 }
 
 .social-icons.bordered-black {
@@ -440,7 +440,7 @@ body {
 }
 
 .social-icons.bordered-black a:hover i {
-  background-image:url(http://rafahell.com/images/css/sicon-set-white.png)
+  background-image:url(https://rafahell.com/images/css/sicon-set-white.png)
 }
 
 .social-icons.hover-big [class^="sicon-"],.social-icons.hover-big [class*=" sicon-"] {
@@ -459,7 +459,7 @@ body {
 }
 
 .social-icons.hover-big a:hover i {
-  background-image:url(http://rafahell.com/images/css/sicon-set-white.png)
+  background-image:url(https://rafahell.com/images/css/sicon-set-white.png)
 }
 
 .social-icons.hover-big .sicon-facebook:hover {
@@ -550,7 +550,7 @@ fa-twitter:hover {
     z-index: 100000;
 }
 .anchored-navigation .anchor-prev {
-    background: url(http://work.rafahell.com/anchor-left.png) no-repeat 100% 0;
+    background: url(https://work.rafahell.com/anchor-left.png) no-repeat 100% 0;
     left: -175px;
     padding-right: 55px;
 }
@@ -564,7 +564,7 @@ fa-twitter:hover {
     padding-left: 10px;
 }
 .anchored-navigation .anchor-next {
-    background: url(http://work.rafahell.com/anchor-right.png) no-repeat 0 0;
+    background: url(https://work.rafahell.com/anchor-right.png) no-repeat 0 0;
     right: -175px;
     padding-left: 55px;
 }

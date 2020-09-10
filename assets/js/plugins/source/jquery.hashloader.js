@@ -24,10 +24,10 @@
  *                    remove
  *                    hide
  *
- *  by Rewea: http://www.rewea.com
+ *  by Rewea: https://www.rewea.com
  *
  *  Copyright 2013 Rewea.com - Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).
- *  http://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+ *  https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
  */
  
 (function($){
