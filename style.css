@@ -1,0 +1,652 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+ul, ol {
+    margin-bottom: 0 !important;
+    list-style: none;
+}
+
+/*bg colours*/
+#grey-bg {
+    height: 100%;
+    margin: 0;
+    background: #848585;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*full header*/
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover !important;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background: url('header-moto.jpg') no-repeat center center scroll;
+    padding: 50px 0;
+}
+
+.image-bg-fixed-height {
+	background: url('header-moto.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
+
+/*masonry*/
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- isotope ---- */
+
+.grid {
+
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 50%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.logoW {
+   	float: right;
+}
+
+.logo-work-page {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.logo-work-page img {
+    max-width: 50px;
+}
+
+/*responsive*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) { 
+    .grid-sizer,.grid-item {
+      width: 100%;
+    }
+    
+    .grid-item {
+      float: none;
+    }
+	
+	
+	#type-footer {
+  		font-size: 1em !important;
+		padding: 0px 0px 0px 5px !important;
+	}
+	.type {
+    	margin-top: 0px !important;
+	}
+
+	.logoW {
+		float:none;
+    	position: fixed;
+    	top: 20px;
+   		z-index: 999999;
+    display: block;
+    transition: all 0.25s ease;
+		
+	}
+	.image-bg-fluid-height {
+		padding: 50px 0;
+	}
+	.typed-cursor {
+		font-size: 1em !important;
+	}
+
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+/*slideInLeft*/
+@keyframes slideInLeft {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
+}
+
+/*slideInRight*/
+@keyframes slideInRight {
+  0% {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+}
+
+
+/*fadeIn*/
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+#navigation {
+  background-color:#332248;
+  width:100%;
+  box-shadow:0 0 2px rgba(0,0,0,0.65);
+  z-index:2000;
+  *position:relative;
+  *z-index:2000;
+}
+
+#navigation .brand {
+  padding:7px 0 8px;
+  text-align:left
+}
+
+#navigation #main-menu {
+  display:inline-block;
+  float:none;
+  margin-top:10px;
+  position:relative;
+  text-align:center;
+  line-height:18px;
+  font-size:12px;
+  list-style:none;
+  padding: 0;
+}
+
+#navigation #main-menu li {
+  display:inline-block;
+  position:relative;
+  padding:0;
+  margin:0;
+  line-height:18px;
+  list-style:none
+}
+
+#navigation #main-menu a {
+  font-family: "Consolas", "Courier New", "Courier";
+  font-size:13px;
+  font-weight:700;
+  text-transform:uppercase;
+  line-height:18px;
+  letter-spacing:1px;
+  color:#FFF;
+  padding:12px 15px;
+  margin:0;
+  text-decoration:none;
+  position:relative;
+  display:block
+}
+
+#navigation #main-menu li a:focus,#navigation #main-menu li a:hover {
+  background:0;
+  outline:medium none
+}
+
+#navigation #main-menu li:hover a:after,#navigation #main-menu li.active a:after {
+  background-color:#bbb;
+  bottom:-4px;
+  content:"";
+  height:7px;
+  left:50%;
+  margin-left:-4px;
+  position:absolute;
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  transform:rotate(45deg);
+  width:7px
+}
+
+#navigation .mobile-menu {
+  display:none;
+  float:right;
+  padding:7px 10px;
+  margin-left:5px;
+  margin-top:22px;
+  cursor:pointer
+}
+
+#navigation .mobile-menu .icon-bar {
+  background-color:#FFF;
+  -webkit-border-radius:1px;
+  -moz-border-radius:1px;
+  border-radius:1px;
+  -webkit-box-shadow:0 1px 0 rgba(0,0,0,0.25);
+  -moz-box-shadow:0 1px 0 rgba(0,0,0,0.25);
+  box-shadow:0 1px 0 rgba(0,0,0,0.25);
+  display:block;
+  height:3px;
+  width:26px;
+  margin-bottom:3px;
+  margin-top:1px
+}
+
+#navigation .mobile-menu:hover .icon-bar {
+  background-color:#A8A8A8
+}
+
+.social-icons {
+  display:inline-block
+}
+
+.social-icons a {
+  display: inline-block
+}
+
+.social-icons-bottom {
+  display: table-cell;
+  padding: 0px 8px 8px 0px;
+}
+
+.social-icons-bottom a {
+  display: table-cell;
+  padding: 0px 8px 8px 0px;
+}
+
+
+[class^="sicon-"] i,[class*=" sicon-"] i {
+  display:block;
+  width:25px;
+  height:25px;
+  *margin-right:.3em;
+  margin-top:10px;
+  line-height:14px;
+  vertical-align:text-top;
+  background-image:url(http://rafahell.com/images/css/sicon-set-menu.png);
+  background-repeat:no-repeat;
+  text-indent:-99999px;
+  text-align:center
+}
+
+.sicon-white i {
+  background-image:url(http://rafahell.com/images/css/sicon-set-white.png)
+}
+
+.sicon-black i {
+  background-image:url(http://rafahell.com/images/css/sicon-set.png)
+}
+
+.sicon-search i {
+  background-position:0 0
+}
+
+.sicon-place i {
+  background-position:-37px 0
+}
+
+.sicon-phone i {
+  background-position:-77px 0
+}
+
+.sicon-mail i {
+  background-position:-117px 0
+}
+
+.sicon-clock i {
+  background-position:-157px 0
+}
+
+.sicon-facebook i {
+  background-position:-197px 0
+}
+
+.sicon-twitter i {
+  background-position:-237px -1px
+}
+
+.sicon-linkedin i {
+  background-position:-277px -1px
+}
+
+.sicon-youtube i {
+  background-position:-317px -1px
+}
+
+.sicon-pinterest i {
+  background-position:-356px -1px
+}
+
+.social-icons.bordered {
+  border-right:2px solid #fff
+}
+
+.social-icons.bordered a {
+  border:2px solid #fff;
+  border-right:0;
+  padding:6px;
+  -webkit-transition:all .2s ease-in-out;
+  -moz-transition:all .2s ease-in-out;
+  -o-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out
+}
+
+.social-icons.bordered a:hover {
+  background-color:#fff
+}
+
+.social-icons.bordered a:hover i {
+  background-image:url(http://rafahell.com/images/css/sicon-set.png)
+}
+
+.social-icons.bordered-black {
+  border-right:2px solid #292929
+}
+
+.social-icons.bordered-black a {
+  border:2px solid #292929;
+  border-right:0
+}
+
+.social-icons.bordered-black a:hover {
+  background-color:#292929
+}
+
+.social-icons.bordered-black a:hover i {
+  background-image:url(http://rafahell.com/images/css/sicon-set-white.png)
+}
+
+.social-icons.hover-big [class^="sicon-"],.social-icons.hover-big [class*=" sicon-"] {
+  padding:9px 8px 8px;
+  -webkit-transition:all .2s ease-in-out;
+  -moz-transition:all .2s ease-in-out;
+  -o-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out
+}
+
+.social-icons.hover-big a i {
+  -webkit-transition:all .3s ease-in-out;
+  -moz-transition:all .3s ease-in-out;
+  -o-transition:all .3s ease-in-out;
+  transition:all .3s ease-in-out
+}
+
+.social-icons.hover-big a:hover i {
+  background-image:url(http://rafahell.com/images/css/sicon-set-white.png)
+}
+
+.social-icons.hover-big .sicon-facebook:hover {
+  background-color:#3b5998
+}
+
+.social-icons.hover-big .sicon-twitter:hover {
+  background-color:#44cbff
+}
+
+fa-twitter:hover {
+  background-color:#44cbff
+}
+
+.social-icons.hover-big .sicon-linkedin:hover {
+  background-color:#1e79c0
+}
+
+.social-icons.hover-big .sicon-youtube:hover {
+  background-color:red
+}
+
+.social-icons.hover-big .sicon-pinterest:hover {
+  background-color:#d90000
+}
+
+.social-icons.hover-big .sicon-search:hover {
+  background-color:#000
+}
+
+.social-icons.hover-big .sicon-place:hover {
+  background-color:#000
+}
+
+.social-icons.hover-big .sicon-phone:hover {
+  background-color:#000
+}
+
+.social-icons.hover-big .sicon-mail:hover {
+  background-color:#000
+}
+
+.social-icons.hover-big .sicon-clock:hover {
+  background-color:#000
+}
+
+.fixed-top {
+  position:fixed;
+  top:0;
+  opacity:0;
+  filter:alpha(opacity=0)
+}
+
+.fixed-bottom {
+  position:fixed;
+  bottom:0;
+  display:none;
+  opacity:0;
+  filter:alpha(opacity=0)
+}
+
+.fixed-visable {
+  opacity:1;
+  filter:alpha(opacity=100);
+  display:block
+}
+
+
+/*nav prev/next*/
+.anchored-navigation {
+    display: block;
+}
+
+.anchored-navigation .anchor {
+    height: 50px;
+    display: block;
+    margin-top: -25px;
+    filter: alpha(Opacity=20);
+    opacity: .8;
+    position: fixed;
+    top: 50%;
+    -webkit-transition: all .4s ease-in-out .05s;
+    -moz-transition: all .4s ease-in-out .05s;
+    -ms-transition: all .4s ease-in-out .05s;
+    -o-transition: all .4s ease-in-out .05s;
+    transition: all .4s ease-in-out .05s;
+    /*width: 165px;*/
+    z-index: 100000;
+}
+.anchored-navigation .anchor-prev {
+    background: url(http://work.rafahell.com/anchor-left.png) no-repeat 100% 0;
+    left: -175px;
+    padding-right: 55px;
+}
+.anchored-navigation .anchor-prev:hover, .anchored-navigation .anchor-prev:focus {
+    left: 0;
+}
+.page-blog .anchored-navigation .anchor-prev:hover, .page-blog .anchored-navigation .anchor-prev:focus, .page-career .anchored-navigation .anchor-prev:hover, .page-career .anchored-navigation .anchor-prev:focus {
+    left: -175px;
+}
+.anchored-navigation .anchor-prev .title {
+    padding-left: 10px;
+}
+.anchored-navigation .anchor-next {
+    background: url(http://work.rafahell.com/anchor-right.png) no-repeat 0 0;
+    right: -175px;
+    padding-left: 55px;
+}
+.anchored-navigation .anchor-next:hover, .anchored-navigation .anchor-next:focus {
+    right: 0;
+}
+.page-blog .anchored-navigation .anchor-next:hover, .page-blog .anchored-navigation .anchor-next:focus, .page-career .anchored-navigation .anchor-next:hover, .page-career .anchored-navigation .anchor-next:focus {
+    right: -175px;
+}
+.anchored-navigation .anchor-next .title {
+    padding-right: 10px;
+}
+.anchored-navigation .anchor:focus, .anchored-navigation .anchor:hover {
+    filter: alpha(Opacity=100);
+    opacity: 1;
+    text-decoration: none;
+}
+.anchored-navigation .title {
+    background: #000;
+    color: #fff;
+    display: block;
+    height: 50px;
+    font: 13px/50px "Consolas", "Courier New", "Courier";
+    overflow: hidden;
+    text-transform: uppercase;
+    width: 165px;
+}
+
+/*typed*/
+.typed-cursor{
+    /*opacity: 1;*/
+    color: #FFF;/
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-weight: 100;
+    font-size: 1.75em;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#type-footer {
+    color: #FFF;
+    padding: 10px;
+    color: #f0f0f0;
+    text-shadow: #000 0px 1px 0px;
+    font-family: "Consolas", "Courier New", "Courier";
+    font-size: 1.75em;
+    line-height: 1.40em;
+    font-weight: 500;
+    text-align: left;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    border-color: #080808;
+}
+
+.tooltip.top{
+    margin-top:-15px !important;
+    font-family: "Consolas", "Courier New", "Courier";
+}
+
+.type {
+    margin-top: 10px;
+}
