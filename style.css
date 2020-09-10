@@ -550,9 +550,11 @@ fa-twitter:hover {
     z-index: 100000;
 }
 .anchored-navigation .anchor-prev {
-    background: url(https://work.rafahell.com/anchor-left.png) no-repeat 100% 0;
+    background: url(images/chevron-left.png) no-repeat 100% 0;
     left: -175px;
     padding-right: 55px;
+    background-size: contain;
+    background-color: black;
 }
 .anchored-navigation .anchor-prev:hover, .anchored-navigation .anchor-prev:focus {
     left: 0;
@@ -564,9 +566,11 @@ fa-twitter:hover {
     padding-left: 10px;
 }
 .anchored-navigation .anchor-next {
-    background: url(https://work.rafahell.com/anchor-right.png) no-repeat 0 0;
+    background: url(images/chevron-right.png) no-repeat 0 0;
     right: -175px;
     padding-left: 55px;
+    background-size: contain;
+    background-color: black;
 }
 .anchored-navigation .anchor-next:hover, .anchored-navigation .anchor-next:focus {
     right: 0;
@@ -596,7 +600,7 @@ fa-twitter:hover {
 /*typed*/
 .typed-cursor{
     /*opacity: 1;*/
-    color: #FFF;/
+    color: #FFF;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
