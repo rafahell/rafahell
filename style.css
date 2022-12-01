@@ -654,3 +654,78 @@ fa-twitter:hover {
 .type {
     margin-top: 10px;
 }
+
+
+/*ux work*/
+.ux {
+  height: 100%;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ux {
+  height: 100%;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ux h1 {
+ font-size: 32px;
+ font-weight: bold;
+}
+
+.ux p {
+  font-size: 16px;
+ }
+
+.ux ul{
+  list-style: disc;
+}
+.ux ol{
+  list-style: auto;
+}
+
+.ux ul.list-style-none {
+  list-style: none;
+}
+
+.spacer {
+  background-color: transparent;
+  border: 0;
+  height: 1px;
+  margin-bottom: 2.5em;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.btn-one:hover {
+  background: transparent;
+  border: 1px solid #ff420c;
+  color: #ff420c;
+}
+.btn-one {
+  cursor: pointer;
+  background: #ff420c;
+  border: 1px solid #ff420c;
+  -webkit-transition: all .4s;
+  display: inline-block;
+  color: #fff;
+  font-family: 'Raleway',sans-serif;
+  position: relative;
+  z-index: 2;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+  line-height: 44px;
+  min-width: 170px;
+  height: 46px;
+  letter-spacing: 2px;
+  margin-right: 15px;
+  border-radius: 25px;
+}

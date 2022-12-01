@@ -8,8 +8,6 @@ $(document).ready( function() {
         }); 
     });
     
-   
-    
     //mansory
     $("img.lazy").lazyload({
         effect : "fadeIn"
@@ -48,59 +46,24 @@ $(document).ready( function() {
         resetCallback: function() {}	
     });
     
-    $(".type-footer-berti").typed({
-            strings: ["<i class='fa fa-terminal'></i> MY ROLE: UX Design / Dev"],
+    $(".type-footer-uxfe").typed({
+            strings: ["<i class='fa fa-terminal'></i> MY ROLE: UX Design / Front End Dev"],
             typeSpeed: 0
     });
     
-    $(".type-footer-corp").typed({
-            strings: ["<i class='fa fa-terminal'></i> MY ROLE: Front End Dev"],
-            typeSpeed: 0
-    });
-    
-    $(".type-footer-bol").typed({
+    $(".type-footer-fe").typed({
             strings: ["<i class='fa fa-terminal'></i> MY ROLE: Front End Dev"],
             typeSpeed: 0
     });
 
-    $(".type-footer-riv").typed({
+    $(".type-footer-befe").typed({
             strings: ["<i class='fa fa-terminal'></i> MY ROLE: Front / Back End Dev"],
             typeSpeed: 0    
     });
     
-    $(".type-footer-trim").typed({
-            strings: ["<i class='fa fa-terminal'></i> MY ROLE: Front / Back End Dev"],
-            typeSpeed: 0   
-    });
-    
-    $(".type-footer-alt").typed({
-            strings: ["<i class='fa fa-terminal'></i> MY ROLE: Front End Dev"],
-            typeSpeed: 0   
-    });
-    
-    $(".type-footer-para").typed({
-            strings: ["<i class='fa fa-terminal'></i> MY ROLE: Front / Back End Dev"],
-            typeSpeed: 0
-    });
-    
-    $(".type-footer-trim").typed({
-            strings: ["<i class='fa fa-terminal'></i> MY ROLE: UX Design / Dev"],
-            typeSpeed: 0 
-    });
-    
-    $(".type-footer-4ever").typed({
-            strings: ["<i class='fa fa-terminal'></i> MY ROLE: UX Design / Dev"],
-            typeSpeed: 0
-    });
-
-	$(".type-footer-sh").typed({
-            strings: ["<i class='fa fa-terminal'></i> MY ROLE: UX Design / Dev"],
-            typeSpeed: 0
-    });
-    
-	$(".type-footer-cd").typed({
-            strings: ["<i class='fa fa-terminal'></i> MY ROLE: UX Design / Dev"],
-            typeSpeed: 0
+    $(".type-footer-ux").typed({
+        strings: ["<i class='fa fa-terminal'></i> MY ROLE: UX Research / UX Design"],
+        typeSpeed: 0
     })
 
     $(".img-responsive").on("contextmenu",function(e){
